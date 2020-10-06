@@ -723,7 +723,7 @@ void MainWindow::ConvertFile(void)
         else if (fi.completeSuffix().at(2)=='l'   ) conversionThread->format=STRFMT_RINEX;
         else if (fi.completeSuffix().at(2)=='L'   ) conversionThread->format=STRFMT_RINEX;
         else {
-            showmsg("file format can not be recognized");
+//            showmsg("file format can not be recognized");
             return;
         }
     }

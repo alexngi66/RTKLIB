@@ -274,9 +274,11 @@ extern "C" {
 #define FREQTYPE_L1 0x01                /* frequency type: L1/E1 */
 #define FREQTYPE_L2 0x02                /* frequency type: L2/B1/E5b */
 #define FREQTYPE_L5 0x04                /* frequency type: L5/E5a/L3 */
-#define FREQTYPE_E6 0x08                /* frequency type: E6/LEX/B3 */
-#define FREQTYPE_E5ab 0x10              /* frequency type: E5(a+b) */
-#define FREQTYPE_S 0x20                 /* frequency type: S */
+#define FREQTYPE_L6 0x08                /* frequency type: E6/LEX/B3 */
+#define FREQTYPE_L7 0x10                /* frequency type: E5(a+b) */
+#define FREQTYPE_S 0x20                 /* frequency type: IRNSS S-band */
+#define FREQTYPE_L8 0x40                /* frequency type: GAL new band*/
+#define FREQTYPE_L9 0x80                /* frequency type: BDS new band*/
 #define FREQTYPE_ALL 0xFF               /* frequency type: all */
 
 #define CODE_NONE   0                   /* obs code: none or unknown */
